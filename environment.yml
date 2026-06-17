@@ -1,11 +1,12 @@
+name: radmax
 channels:
   - conda-forge
 dependencies:
+  - python=3.8
   - numpy
   - scipy
+  - matplotlib
   - ipywidgets
   - bqplot=0.11.9
   - voila
-  - pip
-  - pip:
-    - xrayutilities
+  - xrayutilities
